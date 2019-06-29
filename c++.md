@@ -1,4 +1,6 @@
-# C++ Syntax
+# C++ Concepts and Syntax
+
+
 
 ## C/C++ Preprocessors : 
       Preprocessors are programs that processes our source code before compilation.
@@ -23,49 +25,49 @@
 
 1) Inheritance : The capability of a class to derive properties and characteristics from another class is called Inheritance.
 
-   Sub Class   :  class which inherits
+   Sub Class   :  class which inherits.
    Super Class :  class who properties are inherited. Also called Base Class
    
    syntax:
-    
+    ```
      class subclass_name : access_mode base_class_name
      {
         //body of subclass
       };
-      
+     ```
       
 ## Access modifiers :
+    ```
+           class A  
+          { 
+               public: 
+                   int x; 
+               protected: 
+                   int y; 
+               private: 
+                   int z; 
+          }; 
 
-                 class A  
-                { 
-                     public: 
-                         int x; 
-                     protected: 
-                         int y; 
-                     private: 
-                         int z; 
-                }; 
+          class B : public A 
+          { 
+              // x is public 
+              // y is protected 
+              // z is not accessible from B 
+          }; 
 
-                class B : public A 
-                { 
-                    // x is public 
-                    // y is protected 
-                    // z is not accessible from B 
-                }; 
+          class C : protected A 
+          { 
+              // x is protected 
+              // y is protected 
+              // z is not accessible from C 
+          }; 
 
-                class C : protected A 
-                { 
-                    // x is protected 
-                    // y is protected 
-                    // z is not accessible from C 
-                }; 
-
-                class D : private A    // 'private' is default for classes 
-                { 
-                    // x is private 
-                    // y is private 
-                    // z is not accessible from D 
-                }; 
-
+          class D : private A    // 'private' is default for classes 
+          { 
+              // x is private 
+              // y is private 
+              // z is not accessible from D 
+          }; 
+      ```
 
 
