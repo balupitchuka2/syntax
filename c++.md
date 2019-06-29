@@ -1,15 +1,17 @@
-##C/C++ Preprocessors : 
+# C++ Syntax
+
+## C/C++ Preprocessors : 
       Preprocessors are programs that processes our source code before compilation.
       
       
-##Stages in compilation of C/C++ programs :
+## Stages in compilation of C/C++ programs :
      1)The source code written by programmers is stored in the file program.c. 
      2)This file is then processed by preprocessors and an expanded source code file is generated named program. 
      3)This expanded file is compiled by the compiler and an object code file is generated named program.obj . 
      4)Finally the linker links this object code file to the object code of the library functions to generate the executable file program.exe .
 
 
-##There are 4 main types of preprocessor directives:
+## There are 4 main types of preprocessor directives:
      1)Macros
      2)File Inclusion
      3)Conditional Compilation
@@ -17,8 +19,7 @@
 
 
 
-##Object Oriented Programming :
-
+## Object Oriented Programming :
 
 1) Inheritance : The capability of a class to derive properties and characteristics from another class is called Inheritance.
 
@@ -33,7 +34,7 @@
       };
       
       
-Access modifiers :
+## Access modifiers :
 
                  class A  
                 { 
