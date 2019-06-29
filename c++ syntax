@@ -1,2 +1,9 @@
  C/C++ Preprocessors : 
-      Preprocessors are programs that processes our source code before compilation
+      Preprocessors are programs that processes our source code before compilation.
+      
+      
+ Stages in compilation of C/C++ programs :
+     1)The source code written by programmers is stored in the file program.c. 
+     2)This file is then processed by preprocessors and an expanded source code file is generated named program. 
+     3)This expanded file is compiled by the compiler and an object code file is generated named program.obj . 
+     4)Finally the linker links this object code file to the object code of the library functions to generate the executable file program.exe .
