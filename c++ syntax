@@ -16,7 +16,24 @@ There are 4 main types of preprocessor directives:
      4)Other directives
 
 
-</hr>
 
 Object Oriented Programming :
+
+
+1) Inheritance : The capability of a class to derive properties and characteristics from another class is called Inheritance.
+
+   Sub Class   :  class which inherits
+   Super Class :  class who properties are inherited. Also called Base Class
+   
+   syntax:
+    
+     class subclass_name : access_mode base_class_name
+     {
+        //body of subclass
+      };
+      
+      
+    
+
+
 
