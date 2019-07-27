@@ -1,3 +1,16 @@
+1. [ Array Operations Cheat Sheet. ](#aocs)
+
+
+
+
+
+
+
+
+
+
+ 
+ <a name="aocs"></a>
  ## Array Operations Cheat Sheet
   An array is a list-like object with extensive use cases. The most common, in my opinion, are described in this cheat sheet.
 
