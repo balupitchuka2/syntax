@@ -2,6 +2,6 @@
 
 ```
 1) ~ refers to the current user's home directory.
-    usage : cd ~/Desktop
+      usage : cd ~/Desktop
 2)
 ```
