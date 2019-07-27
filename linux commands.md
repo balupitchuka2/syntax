@@ -4,7 +4,7 @@
 1) ~ refers to the current user's home directory.
       usage : cd ~/Desktop
 
-2) handling space in paths: 
+2) handling spaces in paths: 
 
      -- Path names can contain almost any character, but some characters, such as space, must be escaped in most software, usually 
        by enclosing the name in quotation marks.
